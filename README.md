@@ -22,6 +22,8 @@ The model can pinpoint the specific type and severity of the infestation, allowi
 ### Data Understanding
 The data for this project comes from a Kaggle dataset of 1216 training and 388 testing images of coffee leaves that are classified as either healthy or presenting one of three diseases: miner, rust, or phoma.
 <br>
+The dataset can be found at this link: https://www.kaggle.com/datasets/badasstechie/coffee-leaf-diseases?resource=download
+<br>
 <br>
 #### Healthy coffee leaf
 ![Healthy coffee leaf](https://github.com/e-jager/coffee_leaf/blob/e53e4849733cc89e8e02da559da0fa56361e357c/data/images_sorted/test/test_healthy/1118.jpg)
