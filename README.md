@@ -46,5 +46,13 @@ Ascochyta tarda or Phoma tarda is a fungal plant pathogen that causes dieback an
 ![Leaf affected by coffee leaf phoma](https://github.com/e-jager/coffee_leaf/blob/e53e4849733cc89e8e02da559da0fa56361e357c/data/images_sorted/test/test_phoma/512.jpg)
 
 ### Modeling
+I worked through several different iterations of models before reaching the final. First I created a dummy model as a baseline to see what the accuracy would be. Next, I started working on Sequential models using tensorflow keras, changing parameters to improve the model. A Sequential model is a good choice for image classification tasks due to its simplicity and versatility. They offer a straightforward interface for adding layers, making it ideal for building custom architectures tailored to specific image classification challenges while benefiting from the automatic gradient computation and optimization capabilities provided by deep learning frameworks in tensorFlow and keras.
+<br>
+<br>
+I used a grid search as well to improve the Sequential model, but ultimately I wasn't happy with the final accuracies I was able to achieve so I decided to switch to a Convolutional Neural Network (CNN). Using a CNN for image classification offers advantages by leveraging specialized convolutional layers to automatically learn and extract hierarchical features from images. This enables CNNs to capture intricate patterns and spatial relationships within images, making them highly effective for tasks like image classification.
+<br>
+<br>
+The final model I concluded with is a pretrained CNN model called VGG16 that has 16 layers. Pretrained models have pretrained weights for networks, so the hierarchies are already assigned to what a type of image would need, allowing them to be a lot more complex and run a lot faster than if I made the same model myself. The validation loss achieved is pretty low (0.0784), meaning that the model is able to predict the class of new data well, but the training data loss (0.2531) is a little higher. However, the fact that the validation loss is lower than the training is a positive indicator suggesting the model is generalizing well to new data. The training accuracy I got for this model is 0.9104 and the validation accuracy is 0.9876.
+### Results
 ### Conclusions
 #### Next Steps
