@@ -61,3 +61,25 @@ A confusion matrix showed the results of the final VGG16 model's predictions.
 Ultimately this model, could be a tool for farmers of coffee crops to be used to identify these three pests/diseases in their plants. Being able to identify pest/disease risk, especially early before they are able to spread to an entire crop has huge benefits to the agricultural business. Economic stability for smaller coffee farms is essential, and being able to sustain a farm is also beneficial for sustainability of the environment. This model could also help farms scale to larger sizes, with it being able to monitor crops that are more than a farmer, especially in remote rural areas, would be able to monitor by eye. Shade grown coffee is a popular method for growing the crop, and it is often done in forest areas that are physically difficult to navigate as often as they would need to be in order to be monitored for pests/disease by indviduals working on the farm. Finally, being able to detect pests and diseases with a model could help to optimize resource allocation for farms, making them more sustainable and even beneficial for the environment. 
 #### Next Steps
 For next steps, I think there are a lot of directions I could go in depending on the feedback from my stakeholders, but first I would create an app to implement the model on real farms and make it really user friendly. Next I would scale the model to be used on larger scale farms, which could include creating a system to place monitoring cameras around a farm that would automatically monitor the crop health. And last I would collect more data and expand to other crop health indicators that can be seen from leaves such as drought stress and nutrient deficiencies. This could create a well rounded monitoring system for crop health in general.
+
+### References
+#### Coffee pests/diseases
+https://en.wikipedia.org/wiki/Leucoptera_coffeella <br>
+https://www.apsnet.org/edcenter/disandpath/fungalbasidio/pdlessons/Pages/CoffeeRust.aspx <br>
+https://en.wikipedia.org/wiki/Ascochyta_tarda
+
+#### VGG16 model
+https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918
+<br>
+https://datagen.tech/guides/computer-vision/vgg16/
+<br>
+https://keras.io/api/applications/vgg/
+<br>
+https://pytorch.org/vision/main/models/generated/torchvision.models.vgg16.html
+<br>
+https://builtin.com/machine-learning/vgg16
+<br>
+
+#### CNN Models
+https://www.tensorflow.org/tutorials/images/cnn <br>
+https://towardsdatascience.com/build-your-own-convolution-neural-network-in-5-mins-4217c2cf964f
